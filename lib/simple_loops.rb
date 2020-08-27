@@ -38,7 +38,7 @@ end
 
 def return_string_array(array)
 
-counter = 5
+counter = 0
 
   while array[counter] do
     return array.to_s[counter]
