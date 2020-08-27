@@ -38,7 +38,7 @@ end
 
 def return_string_array(array)
   
-  counter = 0...5.string
+  counter = 0...5.to_s
   
   while array[counter] do
     return array[counter]
