@@ -38,11 +38,11 @@ end
 
 def return_string_array(array)
   
-  counter = 0
+  counter = 4
   
   while array[counter] do
     return array[counter]
-    counter += 4
+    counter += 1
   end
 
 end
