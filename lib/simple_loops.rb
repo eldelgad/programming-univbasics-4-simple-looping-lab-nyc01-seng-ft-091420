@@ -42,7 +42,7 @@ def return_string_array(array)
   
   while array[counter] do
     return array[counter]
-    counter += 1
+    counter += 1.to_s
   end
 
 end
