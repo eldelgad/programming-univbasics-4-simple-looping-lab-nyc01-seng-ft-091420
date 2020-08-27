@@ -35,3 +35,14 @@ def output_array(array)
 end
 
 # return_string_array
+
+def return_string_array(array)
+  
+  counter = 0
+  
+  while array[counter] do
+    return array[counter]
+    counter += 1
+  end
+
+end
