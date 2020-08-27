@@ -42,7 +42,7 @@ counter = 0
 
   while array[counter] do
     return array.to_s[counter]
-    counter += 1
+    counter += 5
   end
 
 end
