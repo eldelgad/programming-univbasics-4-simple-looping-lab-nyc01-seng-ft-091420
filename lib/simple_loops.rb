@@ -38,11 +38,13 @@ end
 
 def return_string_array(array)
 
-counter = 0
+  counter = 0
 
-  while counter do
-    return array[counter].to_s
+  while counter < array.length do
+    array[couter] = array[counter].to_s
     counter += 1
   end
+    
+  array
 
 end
